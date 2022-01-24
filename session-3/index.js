@@ -24,3 +24,12 @@ function conversation() {
     console.log("How are you?");
     console.log("Goodbye");
 }
+
+
+
+function futureAge(name, age) {
+    const futureAge = 30 + 5;
+    return "Hi Jackie!" +" you will be " + futureAge + " in 5 years";
+
+}
+console.log(futureAge("Jackie",35));
