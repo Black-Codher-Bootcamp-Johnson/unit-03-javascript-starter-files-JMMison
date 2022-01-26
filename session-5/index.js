@@ -31,7 +31,10 @@ else if (Total>60 && Total <=70) {
     else if (Total> 30 && Total <=40) {
         return 'F'
     }
-}
+    else{ return 'Fail'}
+};
 
 
-console.log(getGrade(35))
+//console.log(getGrade(35))
+
+
