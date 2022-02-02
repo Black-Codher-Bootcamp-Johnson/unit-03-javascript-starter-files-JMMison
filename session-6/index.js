@@ -5,7 +5,7 @@
 let counter = 1;
 
 
-while (counter <50) {
+while (counter <0) {
     const randomNumber = Math.round(Math.random() * 10);
     counter = counter + 1;
 
@@ -27,6 +27,13 @@ while (counter <50) {
 
 
 // ****************************************************TASK 2****************************************************
+
+for (let counter = 1; counter < 15; counter ++) {
+
+    const randomNumber = Math.round(Math.random() * 10);
+
+    console.log(randomNumber)
+}
 
 
 

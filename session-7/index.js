@@ -1,7 +1,7 @@
 // ****************************************************TASK 1****************************************************
+const animals = ['cat', 'dog', 'wolf', 'lion' , 'eagle' , 'zebra' , 'elefant' , 'bird'];
 
-
-
+animals.pop();
 
 
 
@@ -18,6 +18,12 @@
 
 
 
+for (let index = 0; index < animals. length; index++){
+
+  const animal = animals[index];
+
+  console.log(animal)
+}
 
 
 
