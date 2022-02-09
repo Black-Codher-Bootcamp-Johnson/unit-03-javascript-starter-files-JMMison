@@ -19,3 +19,4 @@ export default function displayPopulation() {
   // Finally the population can be appended to the body, and will become visible in the browser.
   document.body.appendChild(paragraph);
 }
+

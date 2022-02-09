@@ -16,16 +16,24 @@ animals.pop();
 
 // ****************************************************TASK 2****************************************************
 
+const peopleNames = ['jackie', 'janine', 'Maria', 'lia' , 'leo' , 'Rich' , 'Bella' , 'Anne' , 'Mia' , 'Laura' , 'Peter'];
+
+peopleNames.sort().reverse();
+
+console.log(peopleNames)
+
+peopleNames.reverse()
+
+console.log(peopleNames)
 
 
-for (let index = 0; index < animals. length; index++){
-
-  const animal = animals[index];
-
-  console.log(animal)
-}
 
 
+const numbers = ['5', '325', '67', '100000', '150'];
+
+numbers.sort()
+
+console.log(numbers)
 
 
 
@@ -41,6 +49,8 @@ const people = [
   { name: 'killmonger', age: 32 },
 ];
 
+
+
 // This is a helper function that should be used in the final task of the session.
 // You should pass this function to the sort method to sort the ages of each individiual in the people array of objects
 // Note: this helper function is using a tertiary operator instead of an if/else statement
@@ -48,5 +58,9 @@ function compare(a, b) {
   const personA = a.age;
   const personB = b.age;
 
-  return personA > personB ? true : false;
+  return personA - personB;
 }
+const sortedPeople = people.sort(compare).map(person=> person.name)
+
+console.log(sortedPeople)
+
